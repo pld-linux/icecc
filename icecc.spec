@@ -6,6 +6,7 @@ Release:	1
 License:	GPL v2
 Group:		X11/Window Managers/Tools
 Source0:	http://www.selena.kherson.ua/xvadim/%{name}-%{version}.tar.bz2
+# Source0-md5:	d825160422af53575488257814e36d19
 Source1:	%{name}.desktop
 URL:		http://www.selena.kherson.ua/xvadim/programse.html#icecc
 BuildRequires:	qt-devel >= 3.0.5
