@@ -2,7 +2,7 @@ Summary:	The IceWM Control Center
 Summary(pl):	Centrum Sterowania IceWM-a
 Name:		icecc
 Version:	1.5
-Release:	2
+Release:	3
 License:	GPL v2
 Group:		X11/Window Managers/Tools
 Source0:	http://www.selena.kherson.ua/xvadim/%{name}-%{version}.tar.bz2
@@ -26,8 +26,10 @@ celu skonfigurowania opcji IceWM-a.
 %setup -q
 
 %build
-cp -f /usr/share/automake/config.* .
-%configure2_13
+cp -f /usr/share/automake/config.* admin
+%configure2_13 \
+	--enable-mt \
+	--with-qt-libraries=%{_libdir}
 %{__make}
 
 %install
