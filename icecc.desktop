@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=IceCC
+Comment=The IceWM Control Center
+Comment[pl]=Centrum Sterowania IceWM'a
+Icon=icecc.png
+Exec=icecc
+Terminal=0
+Type=Application
+# vi: encoding=utf-8
