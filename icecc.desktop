@@ -2,9 +2,10 @@
 Encoding=UTF-8
 Name=IceCC
 Comment=The IceWM Control Center
-Comment[pl]=Centrum Sterowania IceWM'a
+Comment[pl]=Centrum Sterowania IceWM-a
 Icon=icecc.png
 Exec=icecc
 Terminal=false
 Type=Application
+Categories=Settings;
 # vi: encoding=utf-8
