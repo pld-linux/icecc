@@ -1,5 +1,5 @@
 Summary:	The IceWM Control Center
-Summary(pl):	Centrum Sterowania IceWM-a
+Summary(pl.UTF-8):   Centrum Sterowania IceWM-a
 Name:		icecc
 Version:	1.5
 Release:	3
@@ -18,8 +18,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 The IceWM Control Center allows you to run various tools for
 configuring IceWM's options.
 
-%description -l pl
-Centrum Sterowania IceWM pozwala na uruchomienie ró¿nych narzêdzi w
+%description -l pl.UTF-8
+Centrum Sterowania IceWM pozwala na uruchomienie rÃ³Å¼nych narzÄ™dzi w
 celu skonfigurowania opcji IceWM-a.
 
 %prep
