@@ -1,5 +1,5 @@
 Summary:	The IceWM Control Center
-Summary(pl.UTF-8):   Centrum Sterowania IceWM-a
+Summary(pl.UTF-8):	Centrum Sterowania IceWM-a
 Name:		icecc
 Version:	1.5
 Release:	3
