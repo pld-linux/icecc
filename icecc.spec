@@ -10,7 +10,7 @@ Source0:	http://www.selena.kherson.ua/xvadim/%{name}-%{version}.tar.bz2
 Source1:	%{name}.desktop
 URL:		http://www.selena.kherson.ua/xvadim/programse.html#icecc
 BuildRequires:	automake
-BuildRequires:	qt-devel >= 3.0.5
+BuildRequires:	qt-devel >= 3:3.0.5
 Requires:	icewm
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
